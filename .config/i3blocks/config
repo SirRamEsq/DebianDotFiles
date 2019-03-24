@@ -1,0 +1,24 @@
+command=~/.scripts/i3/i3blocks/$BLOCK_NAME
+separator_block_width=15
+markup=pango
+
+#[cpu]
+#interval=15
+#label=💻
+
+[disk]
+interval=60
+command=~/.scripts/i3/i3blocks/disk / 💾
+
+#[volume]
+#interval=once
+#signal=10
+
+[ip_address]
+interval=10
+
+[clock]
+label=📅
+interval=30
+
+
