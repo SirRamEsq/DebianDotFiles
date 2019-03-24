@@ -1,5 +1,3 @@
-rename 965_Only.png
-rename 180_Penn Twn.png
 rename 895-Only.png
 rename 975_only.png
 rename 665_Only.png
@@ -31,7 +29,6 @@ find P
 find desktops
 find 
 search Pic
-search 
 rename
 rename 1900x1080
 open_with 
@@ -47,4 +44,7 @@ search conf
 search .conf
 search i3
 search config
+shell 
+rename koi.jpeg
+search 
 delete

@@ -6,6 +6,10 @@ markup=pango
 #interval=15
 #label=💻
 
+[music]
+label=🎼
+interval=5
+
 [disk]
 interval=60
 command=~/.scripts/i3/i3blocks/disk / 💾
