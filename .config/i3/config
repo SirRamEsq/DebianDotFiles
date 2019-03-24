@@ -192,6 +192,7 @@ workspace 6 output $monitorSecondary
 workspace 8 output $monitorSecondary
 workspace 10 output $monitorSecondary
 
+bindsym $mod+F2 exec $term -e zsh -ic "ncmpcpp"
 bindsym $mod+F3 exec --no-startup-id firefox
 bindsym $mod+F12 exec --no-startup-id "godot ~/godot/projects/project-louie/project.godot"
 
