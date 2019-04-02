@@ -1,0 +1,45 @@
+!! The default colors are "Gruvbox":
+*.color0: #1d2021
+*.color1: #cc241d
+*.color2: #98971a
+*.color3: #d79921
+*.color4: #458588
+*.color5: #b16286
+*.color6: #689d6a
+*.color7: #a89984
+*.color8: #928374
+*.color9: #fb4934
+*.color10: #b8bb26
+*.color11: #fabd2f
+*.color12: #83a598
+*.color13: #d3869b
+*.color14: #8ec07c
+*.color15: #ebdbb2
+!! Transparency (0-255):
+st.alpha: 230
+!! Set a default font and font size as below:
+!! *.font: Monospace-14;
+
+
+! --- URxvt --- !
+!-*- Perl extensions -*-
+URxvt.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
+URxvt.keysym.M-u:     perl:url-select:select_next
+URxvt.url-launcher:   /usr/bin/firefox
+URxvt.underlineURLs:  True
+URxvt.matcher.button: 1 
+URxvt.keysym.M-Escape:perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V:     perl:pasta:paste
+! Comment this if you dont want copy when text is selected
+URxvt.clipboard.autocopy: true
+
+! - style - !
+!URxvt.intensityStyles:	false
+URxvt.background:       [70]#000000
+URxvt.depth:		32
+!URxvt.font: 		xft:monospace:size=11
+URxvt.scrollBar: false
+URxvt.font:     xft:bitstream vera sans mono:size=12:antialias=true
+URxvt.boldFont: xft:bitstream vera sans mono:bold:size=12:antialias=true
+URxvt.transparent: true
+URxvt.shading: 30
