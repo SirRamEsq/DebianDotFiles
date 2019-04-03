@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/ryandesktoplinux/.oh-my-zsh
+export ZSH=/home/ryan/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -18,9 +18,6 @@ source $ZSH/oh-my-zsh.sh
 
 export EDITOR="nvim"
 #export TERM="sakura"
-export GOPATH="$HOME/golang"
-export PATH=$PATH:~/golang/bin:~/godot
-export CPLUS_INCLUDE_PATH="/home/ryandesktoplinux/Documents/CPP/Projects/LEngine/Source/LinuxDependencies/LuaBridge-master/Source/LuaBridge":"/home/ryandesktoplinux/Documents/CPP/Projects/LEngine/Source/LinuxDependencies/rapidxml-1.13"
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.

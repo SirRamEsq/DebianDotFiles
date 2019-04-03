@@ -42,7 +42,7 @@ focus_follows_mouse no
 
 # # ---Scripts---# #
 # Set background
-exec --no-startup-id feh --bg-fill ~/.config/wall.png
+exec --no-startup-id feh --bg-fill ~/.config/wall.jpeg
 # Composite manager (Window Graphical Effects):
 # exec --no-startup-id xcompmgr
 exec --no-startup-id compton -b --config ~/.config/compton.conf
@@ -53,7 +53,7 @@ exec --no-startup-id ~/.scripts/xrandrSetup.sh
 # Starts dunst for notifications:
 exec --no-startup-id dunst
 # mpd startup
-exec --no-startup-id mpd
+# exec --no-startup-id mpd
 
 # Set Xresources colors:
 set_from_resource $darkblack	color0  #000000

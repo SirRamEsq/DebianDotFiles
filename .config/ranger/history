@@ -1,7 +1,3 @@
-rename 895-Only.png
-rename 975_only.png
-rename 665_Only.png
-rename 850_Only.png
 rename 855_Only.png
 rename 875_Only.png
 rename 560_Only.png
@@ -28,7 +24,6 @@ search mpd
 find P
 find desktops
 find 
-search Pic
 rename
 rename 1900x1080
 open_with 
@@ -43,8 +38,13 @@ search test
 search conf
 search .conf
 search i3
-search config
 shell 
 rename koi.jpeg
 search 
+search Pic
+search config
+rename wall.pn
 delete
+search P
+rename wall.jpeg
+find i
