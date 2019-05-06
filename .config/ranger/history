@@ -1,24 +1,3 @@
-rename 855_Only.png
-rename 875_Only.png
-rename 560_Only.png
-rename 780_Only.png
-rename 590_Only.png
-rename 305_Ardara - Territory (24).png
-rename 265_Manor.png
-rename 715_Only.png
-rename 110_Levelgreen - Territory (33).png
-rename 955_Only.png
-rename 390_Only.png
-rename 595_Only.png
-rename 785_Only.png
-bulkrename 
-mkdir plum
-mkdir old
-rename 600_.jpg
-mkdir greensburg
-search 275
-search 840
-search 60
 open_with a
 search mpd
 find P
@@ -26,8 +5,6 @@ find desktops
 find 
 rename
 rename 1900x1080
-open_with 
-search m
 rename cool_github_projectss
 q
 
@@ -40,11 +17,35 @@ search .conf
 search i3
 shell 
 rename koi.jpeg
+search Su
+feh ./ap
+search sup
+open_with 
+search im
+search down
+search oin
+search super
+search con
+search god
+find n
+search m
+touch brutalDoom2.sh
+rename brutalJenesis
+rename brutalJenesis.sh
+brutalJenesis.sh
+./brutalJenesis.sh
+search mn
+search Down
+rename gemGreen.pn
+rename greenGem.png
+search green
+search coin
+rename coin2.png
+rename coin.png
+search .emacs
 search 
 search Pic
 search config
 rename wall.pn
 delete
-search P
-rename wall.jpeg
-find i
+search smb

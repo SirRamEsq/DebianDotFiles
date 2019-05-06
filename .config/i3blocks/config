@@ -10,6 +10,9 @@ markup=pango
 label=🎼
 interval=5
 
+[dropbox]
+interval=5
+
 [disk]
 interval=60
 command=~/.scripts/i3/i3blocks/disk / 💾

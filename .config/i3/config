@@ -98,7 +98,10 @@ bindsym $mod+y border pixel 2
 bindsym $mod+Return exec $term
 
 # new daily note
-bindsym $mod+n exec $term -e zsh -ic "~/scripts/newNote.sh"
+# For VIM
+# bindsym $mod+n exec $term -e zsh -ic "~/.scripts/newNote.sh"
+# For EMACS
+bindsym $mod+n exec ~/.scripts/newNoteEmacs.sh
 
 # ranger
 bindsym $mod+r exec $term -e zsh -ic "ranger"
@@ -194,7 +197,7 @@ workspace 10 output $monitorSecondary
 
 bindsym $mod+F2 exec $term -e zsh -ic "ncmpcpp"
 bindsym $mod+F3 exec --no-startup-id firefox
-bindsym $mod+F12 exec --no-startup-id "godot ~/godot/projects/project-louie/project.godot"
+bindsym $mod+F12 exec --no-startup-id "godot3.0 ~/godot/projects/project-louie/project.godot"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
