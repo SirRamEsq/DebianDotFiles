@@ -1,5 +1,7 @@
 # #---Basic Definitions---# #
-set $mod Mod1
+# Mod1 = Alt, Mod4 = Wind0ws key
+set $mod Mod4
+#set $mod Mod1
 
 set $term sakura
 #set $term urxvt
@@ -153,9 +155,11 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # switch to workspace
-bindsym $mod+1 workspace 1: Work
+#bindsym $mod+1 workspace 1: Work
+bindsym $mod+1 workspace 1
 bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3: Browser
+#bindsym $mod+3 workspace 3: Browser
+bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
 bindsym $mod+5 workspace 5
 bindsym $mod+6 workspace 6
@@ -165,9 +169,11 @@ bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1: Work
+#bindsym $mod+Shift+1 move container to workspace 1: Work
+bindsym $mod+Shift+1 move container to workspace 1
 bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3: Browser
+#bindsym $mod+Shift+3 move container to workspace 3: Browser
+bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
 bindsym $mod+Shift+5 move container to workspace 5
 bindsym $mod+Shift+6 move container to workspace 6
@@ -183,8 +189,10 @@ set $monitorSecondary DVI-D-0
 # Use workspaces on different monitors
 # Odd numbers on main monitor
 # Evens on Secondary
-workspace "1: Work" output $monitorPrimary
-workspace "3: Browser" output $monitorPrimary
+#workspace "1: Work" output $monitorPrimary
+#workspace "3: Browser" output $monitorPrimary
+workspace 1 output $monitorPrimary
+workspace 3 output $monitorPrimary
 workspace 5 output $monitorPrimary
 workspace 7 output $monitorPrimary
 workspace 9 output $monitorPrimary
@@ -197,7 +205,7 @@ workspace 10 output $monitorSecondary
 
 bindsym $mod+F2 exec $term -e zsh -ic "ncmpcpp"
 bindsym $mod+F3 exec --no-startup-id firefox
-bindsym $mod+F12 exec --no-startup-id "godot3.0 ~/godot/projects/project-louie/project.godot"
+bindsym $mod+F12 exec --no-startup-id "godot ~/godot/3.1/projects/project-louie/project.godot"
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
