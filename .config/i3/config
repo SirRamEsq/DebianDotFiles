@@ -16,6 +16,7 @@ gaps outer 15
 
 # Screensaver after 10 minutes
 exec --no-startup-id xset dpms 600
+exec --no-startup-id dropbox start
 
  Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
