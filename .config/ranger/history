@@ -1,4 +1,3 @@
-find desktops
 find 
 rename
 rename 1900x1080
@@ -25,7 +24,6 @@ search super
 search con
 search god
 find n
-search m
 touch brutalDoom2.sh
 rename brutalJenesis
 rename brutalJenesis.sh
@@ -48,3 +46,5 @@ delete
 search smb
 find i
 search script
+search m
+search gz

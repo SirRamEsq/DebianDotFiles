@@ -185,7 +185,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # Workspace config
 set $monitorPrimary HDMI-0
-set $monitorSecondary DVI-D-0
+set $monitorSecondary DVI-D-1
 
 # Use workspaces on different monitors
 # Odd numbers on main monitor
@@ -204,6 +204,7 @@ workspace 6 output $monitorSecondary
 workspace 8 output $monitorSecondary
 workspace 10 output $monitorSecondary
 
+bindsym $mod+F1 exec --no-startup-id emacs
 bindsym $mod+F2 exec $term -e zsh -ic "ncmpcpp"
 bindsym $mod+F3 exec --no-startup-id firefox
 bindsym $mod+F12 exec --no-startup-id "godot ~/godot/3.1/projects/project-louie/project.godot"
