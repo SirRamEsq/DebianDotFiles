@@ -17,6 +17,10 @@ interval=5
 interval=60
 command=~/.scripts/i3/i3blocks/disk / 💾
 
+[mouse]
+interval=60
+command=~/.scripts/i3/i3blocks/mouse 🖰
+
 #[volume]
 #interval=once
 #signal=10

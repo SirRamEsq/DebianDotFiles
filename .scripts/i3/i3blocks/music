@@ -5,7 +5,7 @@ filter() {
 	}
 
 case $BLOCK_BUTTON in
-    1) mpc toggle | filter ;;  # right click, pause/unpause
+    1) mpc toggle | filter ;;  # left click, pause/unpause
     3) mpc status | filter && pgrep -x dunst >/dev/null && notify-send "<b>🎵 Music module:</b>
 - Shows mpd song playing.
 - Italic when paused.
