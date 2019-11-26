@@ -10,6 +10,10 @@ markup=pango
 label=🎼
 interval=5
 
+[sound]
+label=🔈
+interval=60
+
 [dropbox]
 interval=5
 
