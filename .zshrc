@@ -1,6 +1,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# Path to latest version of neovim
+# Can grab from releases page on neovim Github Repo
+# https://github.com/neovim/neovim/blob/master/INSTALL.md#appimage-universal-linux-package
+export PATH="$PATH:/opt/nvim/"
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes

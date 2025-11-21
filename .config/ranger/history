@@ -1,9 +1,3 @@
-rename
-rename 1900x1080
-rename cool_github_projectss
-q
-
-search moz
 rename 
 rename Guide.pdf
 search test
@@ -15,7 +9,6 @@ rename koi.jpeg
 search Su
 feh ./ap
 search sup
-open_with 
 search im
 search down
 search oin
@@ -48,3 +41,10 @@ search script
 search m
 search gz
 search doc
+open_with 
+search obsid
+search drop
+
+search local
+search n
+search vim
